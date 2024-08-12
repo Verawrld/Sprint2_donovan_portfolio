@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../styles/styles.css" />
+    <link rel="stylesheet" href="../styles/media.css" />
+  </head>
+  <body>
+    <nav id="nav">
+      <div class="logo">Donovan Head</div>
+      <div>
+        <ul class="navlinks">
+          <li><a href="#about">About</a></li>
+          <li><a href="#ThingsILove">Things I love</a></li>
+          <li><a href="#experience">Experince</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburgernav">
+      <div class="logo">Donovan Head</div>
+      <div class="hamburgermenu">
+        <div class="hamburgericon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menulinks">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experince" onclick="toggleMenu()">Experince</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section-pic-container">
+        <img
+          src="../assets/githubprofilepic.png"
+          alt="Donovan profile pic"
+          id="profile-pic"
+        />
+      </div>
+
+      <div class="section-text">
+        <p class="section-text-p1">Hello, I'm</p>
+        <h1 class="title">Donovan Head</h1>
+        <p class="section-text-p2">Software Developer</p>
+        <div class="btn-container">
+          <button class="btn btn-color-2" onclick="window.open('../assets/')">
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="../assets/linkedin.png"
+            alt="My Linkedin profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/donovan-head-6b46912a9/'"
+          />
+          <img
+            src="../assets/github.png"
+            alt="My Linkedin profile"
+            class="icon"
+            onclick="location.href='https://github.com/Verawrld'"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <div class="top-about">
+        <p class="section-text-p1">Get to know more</p>
+        <h1 class="title">About Me</h1>
+      </div>
+      <div class="section-container">
+        <div class="section-pic-container">
+          <img
+            src="../assets/PROFILEPIC.jpg"
+            alt="profile picture"
+            id="about-me-pic"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="../assets/experience.png"
+                alt="experience icon"
+                class="icon"
+              />
+              <h3>Experince</h3>
+              <p>
+                7 months <br />
+                Software development
+              </p>
+            </div>
+            <div class="details-container">
+              <img
+                src="../assets/education.png"
+                alt="education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>
+                Software devopment <br />
+                keyin college
+              </p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              I am a software developer with 7 months of experience in software
+              development. i started this course to get more experience in the
+              field of software development. The reason im doing this course is
+              because i always had a likeing in games, and wonder how they work
+              and function, but even outside of games just electionics overall,
+              and how they also work. I like to learn new things and try new
+              things, love to solve problems and work through things, i always
+              had a hard time trying to figure out what to do, and be happy with
+              what im doing, but i think i found it.
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="../assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#ThingsILove'"
+      />
+    </section>
+    <section id="ThingsILove">
+      <div class="love-text-container">
+        <h1>Things I Love</h1>
+        <div class="work-section">
+          <div class="work-item">
+            <img
+              src="../assets/gamespic.png"
+              alt="gaming picture"
+              class="love-pic"
+            />
+
+            <h3>Favorite games</h3>
+            <ul>
+              <li>Rainbow Six Seige</li>
+              <li>Last of us</li>
+              <li>Red Dead Redemption 2</li>
+              <li>Jack and Dexter</li>
+              <li>God of War</li>
+            </ul>
+          </div>
+          <div class="work-item">
+            <img src="../assets/pc pic.png" alt="pc picture" class="love-pic" />
+
+            <h3>Pc</h3>
+            <ul>
+              <li>I love building pc's,</li>
+              <li>love learing everything about them</li>
+              <li>fixing them, and just overall working with them.</li>
+              <li>Picking out parts</li>
+            </ul>
+          </div>
+          <div class="work-item">
+            <img
+              src="../assets/puzzelpic.png"
+              alt="puzzel picture"
+              class="love-pic"
+            />
+
+            <h3>solving problems</h3>
+            <ul>
+              <li>Love solving and doing puzzels</li>
+              <li>Working together, and teamwork to get things done</li>
+              <li>Detail-orented, and a problem-solver</li>
+              <li>
+                teaching others how to do things, and helping them understand
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <img
+        src="../assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./experience'"
+      />
+    </section>
+    <section id="experience">
+      <p class="section-text-p1">Explore My</p>
+      <h1 class="title">Experince</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Frontend Development</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="../assets/checkmark.png"
+                  alt="checkmark"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                  <p>experience</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="../assets/checkmark.png"
+                  alt="checkmark"
+                  class="icon"
+                />
+                <div>
+                  <h3>CSS</h3>
+                  <p>intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="../assets/checkmark.png"
+                  alt="checkmark"
+                  class="icon"
+                />
+                <div>
+                  <h3>Java Script</h3>
+                  <p>intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="../assets/checkmark.png"
+                  alt="checkmark"
+                  class="icon"
+                />
+                <div>
+                  <h3>Python</h3>
+                  <p>intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="../assets/checkmark.png"
+                  alt="checkmark"
+                  class="icon"
+                />
+                <div>
+                  <h3>react</h3>
+                  <p>intermediate</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="../assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+    <section id="projects">
+      <p class="section-text-p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <div class="article-container">
+              <img
+                src="../assets/Robot.png "
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Project One</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/Verawrld/Project_QAP_3_S2'"
+              >
+                Github
+              </button>
+            </div>
+          </div>
+          <div class="details-container">
+            <div class="article-container">
+              <img
+                src="../assets/Gary Blues Logo.png"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Project Two</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/Verawrld/Project_Sprint1_s2'"
+              >
+                Github
+              </button>
+            </div>
+          </div>
+          <div class="details-container">
+            <div class="article-container">
+              <img
+                src="../assets/react.png "
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Project Three</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/Verawrld/Project_finalSprint_s1'"
+              >
+                Github
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="../assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+    <section id="quote-of-the-day">
+      <h2>Quote of the Day</h2>
+      <div class="quote-box">
+        <p id="quote-text">"Your quote here."</p>
+      </div>
+      <button onclick="shuffleQuote()">New Quote</button>
+    </section>
+    <section id="joke-of-the-day">
+      <h2>Joke of the Day</h2>
+      <div class="joke-box">
+        <p id="joke-text">"Your joke here."</p>
+      </div>
+      <button onclick="shuffleJoke()">New Joke</button>
+    </section>
+
+    <section id="contact">
+      <p class="section-text-p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="../assets/email.png"
+            alt="Email"
+            class="icon contact-icon email-icon"
+          />
+          <p>
+            <a href="mailto:donovanhead15@hotmail.com"
+              >Donovanhead15@hotmail.com</a
+            >
+          </p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="../assets/linkedin.png"
+            alt="Linkedin icon"
+            class="icon contact-icon"
+          />
+          <p>
+            <a href="https://www.linkedin.com/in/donovan-head-6b46912a9/"
+              >LinkedIn</a
+            >
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="navlinks">
+            <li><a href="#about">About</a></li>
+            <li><a href="#ThingsILove">Things I love</a></li>
+            <li><a href="#experience">Experince</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>&copy; 2024 Donovan Head. All rights reserved.</p>
+    </footer>
+
+    <script src="../scripts/script1.js"></script>
+  </body>
+</html>
